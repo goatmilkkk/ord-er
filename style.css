@@ -1,0 +1,56 @@
+﻿@import url("https://use.typekit.net/oov2wcw.css");
+
+html { 
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url('background.png');
+  user-select: none;
+}
+
+h1 {
+  font-size: 3.6vw;
+  text-align: center;
+}
+
+p {
+  font-size: 3vw;
+  margin: 0px;
+}
+
+input {
+  font-size: 3vw;
+  border-style: hidden;
+  outline-color: white;
+  background: white;
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input:hover {
+  background-color: aliceblue;
+}
+
+.input-header {
+  text-indent: 37.8%;
+}
+
+.ord {
+  font-size: 4.3vw;
+  text-align: center;
+}
+
+#calculate {
+  border: 4px solid lightskyblue;
+  font-size: 2.5vw;
+  border-radius: 10%;
+}
+
+#calculate:hover {
+  cursor: pointer;
+  background-color: white;
+}

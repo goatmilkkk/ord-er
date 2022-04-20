@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Order your ORD!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 style="padding-top: 2%"><u>Order</u></h1>
+
+        <br><p class="input-header" style="padding-top: 0.5%">Batch : <input id="batch" type="number" min="1" style="width: 13.4%"/></p>
+        <p class="input-header" style="padding-top: 1.8%">Year : <input id="year" type="number" min="3" max="4" style="width: 15.5%"/></p>
+
+        <p class="ord" style="padding-top: 3%" id="date"></p>
+        <div class="ord"><input id="calculate" type="button" onclick="calculateOrdDate()" value="Submit"></button></div>
+        <script src="index.js"></script>
+    </body>
+</html>
