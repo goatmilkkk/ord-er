@@ -8,7 +8,7 @@ html {
 
 body {
   background-image: url('background.png');
-  user-select: none;
+  user-select: none; /* treats text as image */
 }
 
 h1 {
@@ -51,6 +51,6 @@ input:hover {
 }
 
 #calculate:hover {
-  cursor: pointer;
+  cursor: pointer; /* change cursor to hand ptr */
   background-color: white;
 }
