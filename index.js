@@ -21,8 +21,6 @@ function calculateOrdDate() {
     }
     // update number of days till ord
     let currentDate = new Date();
-    console.log(ordDate);
-    console.log(currentDate);
     let daysTillOrd = Math.floor((ordDate.getTime() - currentDate.getTime()) / (1000 * 3600 * 24));
     if (daysTillOrd > 0) {
         document.getElementById("date").innerHTML = "You ORD in<br>" + daysTillOrd + " days";
