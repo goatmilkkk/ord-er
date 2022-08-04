@@ -51,7 +51,7 @@ input:hover {
   transform: translate(-50%, -50%);
   margin: auto;
   width: 30%;
-  border: 35px solid turquoise;
+  border: 25px solid turquoise;
   padding: 0px 2% 2.5%;
   border-radius: 10%;
 }
