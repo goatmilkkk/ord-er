@@ -4,7 +4,7 @@ function calculateOrdDate() {
     let year = document.getElementById("year").value;
     // validate input (type & range check)
 
-    if (batch.length == 0 || year.length == 0 || isNaN(batch) || isNaN(year) || parseInt(batch) < 1 || ![3, 4].includes(parseInt(year))) {
+    if (batch.length == 0 || year.length == 0 || isNaN(batch) || isNaN(year) || parseInt(batch) < 1 || parseInt(batch) > 500 || ![3, 4].includes(parseInt(year))) {
         document.getElementById("date").innerHTML = "Invalid<br>Input";
         return;
     }
